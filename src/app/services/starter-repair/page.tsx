@@ -23,13 +23,13 @@ export default function StarterRepairPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={getWhatsAppUrl('Hi, I need starter motor repair service. Can you help?')}
-                className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
+                className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
               >
                 WhatsApp for Quote
               </a>
               <a
                 href={getPhoneUrl()}
-                className="border-2 border-yellow-500 text-yellow-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-500 hover:text-black transition-colors"
+                className="border-2 border-yellow-500 text-yellow-500 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-500 hover:text-black transition-colors"
               >
                 Call Now
               </a>
@@ -50,32 +50,32 @@ export default function StarterRepairPage() {
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Comprehensive Testing</h3>
-                    <p className="text-gray-900">Complete starter motor diagnosis using advanced testing equipment to identify the exact issue.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Comprehensive Testing</h3>
+                    <p className="text-black">Complete starter motor diagnosis using advanced testing equipment to identify the exact issue.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Solenoid Service</h3>
-                    <p className="text-gray-900">Professional repair and replacement of starter solenoids for proper engagement.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Solenoid Service</h3>
+                    <p className="text-black">Professional repair and replacement of starter solenoids for proper engagement.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Brush Replacement</h3>
-                    <p className="text-gray-900">Expert replacement of worn carbon brushes to restore proper motor function.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Brush Replacement</h3>
+                    <p className="text-black">Expert replacement of worn carbon brushes to restore proper motor function.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Quality Guarantee</h3>
-                    <p className="text-gray-900">All repairs backed by comprehensive warranty on parts and labor.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Quality Guarantee</h3>
+                    <p className="text-black">All repairs backed by comprehensive warranty on parts and labor.</p>
                   </div>
                 </div>
               </div>
@@ -130,13 +130,13 @@ export default function StarterRepairPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={getWhatsAppUrl('Hi, my car won\'t start. I think I need starter motor repair.')}
-              className="bg-black text-yellow-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 active:scale-95 hover:scale-105 transition-all duration-200"
+              className="bg-black text-yellow-500 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-800 active:scale-95 hover:scale-105 transition-all duration-200"
             >
               Get Immediate Help
             </a>
             <a
               href={getPhoneUrl()}
-              className="border-2 border-black text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-black hover:text-yellow-500 transition-colors"
+              className="border-2 border-black text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-black hover:text-yellow-500 transition-colors"
             >
               Call for Quote
             </a>

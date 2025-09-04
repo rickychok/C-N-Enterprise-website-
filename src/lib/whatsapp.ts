@@ -9,8 +9,8 @@ export function buildWhatsAppUrl(opts: {
 }
 
 export function getWhatsAppUrl(message?: string) {
-  const phoneE164 = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
-  const fallbackLocal = "011-18696757";
+  const phoneE164 = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "+601118696757";
+  const fallbackLocal = "01118696757";
   
   return buildWhatsAppUrl({
     phoneE164,
@@ -20,6 +20,6 @@ export function getWhatsAppUrl(message?: string) {
 }
 
 export function getPhoneUrl() {
-  const phone = process.env.NEXT_PUBLIC_PHONE_NUMBER || "011-18696757";
+  const phone = process.env.NEXT_PUBLIC_PHONE_NUMBER || "+601118696757";
   return `tel:${phone}`;
 }

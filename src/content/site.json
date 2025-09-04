@@ -2,10 +2,10 @@
   "name": "C&N ENTERPRISE",
   "tagline": "Expert Automotive Electrical Solutions",
   "description": "Professional automotive electrical repair and parts supply shop specializing in alternators, starter motors, wiring diagnostics, and electrical accessories. Over 20 years of trusted service in Sandakan.",
-  "phone": "011-18696757",
-  "phoneSecondary": "016-8305277",
-  "phoneThird": "016-8305668",
-  "whatsapp": "011-18696757",
+  "phone": "+601118696757",
+  "phoneSecondary": "+60168305277",
+  "phoneThird": "+60168305668",
+  "whatsapp": "+601118696757",
   "email": "cnnenterprise5757@gmail.com",
   "address": {
     "street": "Ground Floor, Shop House No 4, MDLB 1633, Taman Hing Wah",
@@ -16,13 +16,13 @@
     "country": "Malaysia"
   },
   "hours": {
-    "monday": "8:00 AM - 6:00 PM",
-    "tuesday": "8:00 AM - 6:00 PM",
-    "wednesday": "8:00 AM - 6:00 PM",
-    "thursday": "8:00 AM - 6:00 PM",
-    "friday": "8:00 AM - 6:00 PM",
-    "saturday": "8:00 AM - 2:00 PM",
-    "sunday": "Closed"
+    "monday": "8:30 AM - 5:30 PM",
+    "tuesday": "8:30 AM - 5:30 PM",
+    "wednesday": "8:30 AM - 5:30 PM",
+    "thursday": "8:30 AM - 5:30 PM",
+    "friday": "8:30 AM - 5:30 PM",
+    "saturday": "8:30 AM - 5:30 PM",
+    "sunday": "Closed (including public holidays)"
   },
   "services": [
     "Alternator Repair & Replacement",
@@ -34,8 +34,8 @@
     "Automotive Electrical Components Sales"
   ],
   "brandColor": "#FFD700",
-  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7!2d101.6!3d3.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1",
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.015068154432!2d118.11403337516816!3d5.836895594204089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323b6db8b1234567%3A0x1234567890abcdef!2sGround%20Floor%2C%20Shop%20House%20No%204%2C%20MDLB%201633%2C%20Taman%20Hing%20Wah%2C%20Batu%208%20Jalan%20Labuk%2C%2090000%20Sandakan%2C%20Sabah!5e0!3m2!1sen!2smy!4v1234567890123",
   "socialLinks": {
-    "facebook": "https://facebook.com/cnenterprise"
+    "facebook": "https://www.facebook.com/profile.php?id=61579905982542"
   }
 }

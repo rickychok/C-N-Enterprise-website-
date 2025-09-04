@@ -10,11 +10,11 @@ export default function FloatingWhatsApp() {
   return (
     <button
       onClick={handleClick}
-      className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 z-50 border-2 border-green-700"
+      className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 active:scale-95 z-50 border-2 border-green-700"
       aria-label="Contact us on WhatsApp"
     >
       <svg
-        className="w-6 h-6"
+        className="w-5 h-5 sm:w-6 sm:h-6"
         fill="currentColor"
         viewBox="0 0 24 24"
       >

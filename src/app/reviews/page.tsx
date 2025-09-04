@@ -25,7 +25,7 @@ export default async function ReviewsPage() {
             </p>
             <a
               href={getWhatsAppUrl('Hi, I would like to book automotive electrical service based on your great reviews')}
-              className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200 inline-block"
+              className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200 inline-block"
             >
               Book Your Service
             </a>
@@ -57,7 +57,7 @@ export default async function ReviewsPage() {
                 </p>
                 
                 <div className="border-t border-gray-200 pt-4">
-                  <p className="font-semibold text-gray-900">{review.name}</p>
+                  <p className="font-bold text-gray-900">{review.name}</p>
                   <p className="text-sm text-yellow-600">{review.service}</p>
                 </div>
               </div>
@@ -103,13 +103,13 @@ export default async function ReviewsPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={getWhatsAppUrl('Hi, I read your excellent reviews and would like to book automotive electrical service')}
-              className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
+              className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
             >
               Book Your Service
             </a>
             <a
               href="/contact"
-              className="border-2 border-yellow-500 text-yellow-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-500 hover:text-black active:scale-95 hover:scale-105 transition-all duration-200"
+              className="border-2 border-yellow-500 text-yellow-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-500 hover:text-black active:scale-95 hover:scale-105 transition-all duration-200"
             >
               Get Free Quote
             </a>

@@ -3,9 +3,9 @@ import ServiceCard from '@/components/marketing/ServiceCard';
 import { getWhatsAppUrl } from '@/lib/whatsapp';
 
 export const metadata: Metadata = {
-  title: 'Services - C&N Enterprise Automotive Electrical',
-  description: 'Professional automotive electrical repair services and parts supply including alternator repair, starter motor repair, wiring diagnostics, charging system service, and electrical accessories sales in Sandakan.',
-  keywords: 'automotive electrical services, alternator repair, starter motor repair, wiring diagnostics, charging system service, electrical parts sales, automotive accessories, Sandakan',
+  title: 'Services - C&N Enterprise Automotive & Heavy Machinery Electrical',
+  description: 'Professional automotive and heavy machinery electrical repair services and parts supply including alternator repair, starter motor repair, wiring diagnostics for cars, trucks, excavators, tractors, and all heavy machinery in Sandakan.',
+  keywords: 'automotive electrical services, heavy machinery electrical repair, alternator repair, starter motor repair, wiring diagnostics, excavator electrical, tractor electrical, lorry electrical, charging system service, electrical parts sales, Sandakan',
 };
 
 export default function ServicesPage() {
@@ -19,11 +19,11 @@ export default function ServicesPage() {
               Our <span className="text-yellow-500">Expert Services</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-              Comprehensive automotive electrical solutions to diagnose, repair, and maintain your vehicle&apos;s electrical systems, plus quality parts and accessories supply.
+              Comprehensive electrical solutions for cars, trucks, and heavy machinery. We diagnose, repair, and supply quality parts for all types of vehicles and equipment.
             </p>
             <a
-              href={getWhatsAppUrl('Hi, I would like to learn more about your automotive electrical services')}
-              className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200 inline-block"
+              href={getWhatsAppUrl('Hi, I would like to learn more about your automotive and heavy machinery electrical services')}
+              className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200 inline-block"
             >
               Get Free Quote
             </a>
@@ -91,13 +91,13 @@ export default function ServicesPage() {
             
             <ServiceCard
               title="Battery & Charging System"
-              description="Complete battery and charging system service plus battery and accessories supply for optimal electrical performance."
+              description="Complete battery and charging system service plus battery testing for optimal electrical performance."
               features={[
-                "Battery sales & replacement",
-                "Battery load testing",
+                "Battery testing & diagnosis",
                 "Charging system analysis",
                 "Voltage regulator service",
-                "Electrical accessories supply"
+                "Terminal service & cleaning",
+                "System performance optimization"
               ]}
               href="/services/charging-system"
               icon={
@@ -106,6 +106,86 @@ export default function ServicesPage() {
                 </svg>
               }
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Heavy Machinery Services */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              Heavy <span className="text-yellow-500">Machinery</span> Electrical Services
+            </h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+              We specialize in electrical systems for construction, agricultural, and industrial equipment
+            </p>
+          </div>
+          
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="bg-white rounded-lg p-6 shadow-md border-2 border-gray-200">
+              <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Construction Equipment</h3>
+              <p className="text-gray-700 mb-4">Electrical repairs and parts for excavators, bulldozers, loaders, cranes, and construction machinery.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Excavator electrical systems</li>
+                <li>• Bulldozer alternators & starters</li>
+                <li>• Loader wiring diagnostics</li>
+                <li>• Crane electrical components</li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md border-2 border-gray-200">
+              <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Commercial Vehicles</h3>
+              <p className="text-gray-700 mb-4">Complete electrical services for lorries, trucks, buses, and commercial vehicle fleets.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Lorry & truck electrical repair</li>
+                <li>• Bus electrical systems</li>
+                <li>• Fleet vehicle maintenance</li>
+                <li>• Trailer electrical connections</li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md border-2 border-gray-200">
+              <div className="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-4">
+                <svg className="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Agricultural & Industrial</h3>
+              <p className="text-gray-700 mb-4">Electrical solutions for tractors, harvesters, generators, and industrial equipment.</p>
+              <ul className="text-sm text-gray-600 space-y-1">
+                <li>• Tractor electrical systems</li>
+                <li>• Harvester wiring repair</li>
+                <li>• Generator maintenance</li>
+                <li>• Industrial machinery electrical</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-12 text-center">
+            <div className="bg-yellow-50 rounded-lg p-6 border-2 border-yellow-200">
+              <h4 className="text-xl font-bold text-gray-900 mb-3">Heavy Machinery Specialists</h4>
+              <p className="text-gray-700 mb-4">
+                Our experienced technicians understand the unique electrical requirements of heavy machinery. From 12V to 24V systems, 
+                we handle everything from simple repairs to complete electrical overhauls.
+              </p>
+              <a
+                href={getWhatsAppUrl('Hi, I need help with heavy machinery electrical repair')}
+                className="bg-yellow-500 text-black px-6 py-3 rounded-lg font-bold hover:bg-yellow-400 transition-colors inline-block"
+              >
+                Contact for Heavy Machinery Service
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -126,7 +206,7 @@ export default function ServicesPage() {
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Expert Technicians</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Expert Technicians</h3>
               <p className="text-gray-900">Certified professionals with years of experience in automotive electrical systems.</p>
             </div>
             
@@ -136,7 +216,7 @@ export default function ServicesPage() {
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Parts Supply & Sales</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Parts Supply & Sales</h3>
               <p className="text-gray-900">We supply and sell high-quality OEM and premium aftermarket electrical parts and accessories.</p>
             </div>
             
@@ -146,7 +226,7 @@ export default function ServicesPage() {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Fast Service</h3>
+              <h3 className="text-xl font-bold mb-2 text-gray-900">Fast Service</h3>
               <p className="text-gray-900">Quick diagnosis and efficient repairs to get you back on the road as soon as possible.</p>
             </div>
           </div>

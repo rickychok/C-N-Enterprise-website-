@@ -23,13 +23,13 @@ export default function AlternatorRepairPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href={getWhatsAppUrl('Hi, I need alternator repair service. Can you help?')}
-                className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
+                className="bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
               >
                 WhatsApp for Quote
               </a>
               <a
                 href={getPhoneUrl()}
-                className="border-2 border-yellow-500 text-yellow-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-500 hover:text-black transition-colors"
+                className="border-2 border-yellow-500 text-yellow-500 px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-500 hover:text-black transition-colors"
               >
                 Call Now
               </a>
@@ -50,32 +50,32 @@ export default function AlternatorRepairPage() {
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Complete Diagnosis</h3>
-                    <p className="text-gray-900">Comprehensive testing of your alternator using advanced diagnostic equipment to identify the exact issue.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Complete Diagnosis</h3>
+                    <p className="text-black">Comprehensive testing of your alternator using advanced diagnostic equipment to identify the exact issue.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Professional Repair</h3>
-                    <p className="text-gray-900">Expert repair of alternator components including brushes, slip rings, diodes, and voltage regulators.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Professional Repair</h3>
+                    <p className="text-black">Expert repair of alternator components including brushes, slip rings, diodes, and voltage regulators.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Quality Parts</h3>
-                    <p className="text-gray-900">We use only premium OEM and high-quality aftermarket parts for lasting performance.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Quality Parts</h3>
+                    <p className="text-black">We use only premium OEM and high-quality aftermarket parts for lasting performance.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="w-2 h-2 bg-yellow-500 rounded-full mt-3 mr-4 flex-shrink-0 border border-yellow-700"></div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Warranty Coverage</h3>
-                    <p className="text-gray-900">All repairs come with comprehensive warranty on both parts and labor for your peace of mind.</p>
+                    <h3 className="font-bold text-lg mb-2 text-black">Warranty Coverage</h3>
+                    <p className="text-black">All repairs come with comprehensive warranty on both parts and labor for your peace of mind.</p>
                   </div>
                 </div>
               </div>
@@ -125,7 +125,7 @@ export default function AlternatorRepairPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Our Repair <span className="text-yellow-500">Process</span>
             </h2>
-            <p className="text-lg text-gray-900">Simple steps to get your alternator working perfectly</p>
+            <p className="text-lg text-black">Simple steps to get your alternator working perfectly</p>
           </div>
           
           <div className="grid md:grid-cols-4 gap-8">
@@ -133,32 +133,32 @@ export default function AlternatorRepairPage() {
               <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4 text-black font-bold text-xl border-2 border-yellow-700">
                 1
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-gray-900">Diagnosis</h3>
-              <p className="text-gray-900">Comprehensive testing to identify the exact problem with your alternator.</p>
+              <h3 className="font-bold text-lg mb-2 text-black">Diagnosis</h3>
+              <p className="text-black">Comprehensive testing to identify the exact problem with your alternator.</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4 text-black font-bold text-xl border-2 border-yellow-700">
                 2
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-gray-900">Quote</h3>
-              <p className="text-gray-900">Transparent pricing with detailed explanation of required repairs.</p>
+              <h3 className="font-bold text-lg mb-2 text-black">Quote</h3>
+              <p className="text-black">Transparent pricing with detailed explanation of required repairs.</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4 text-black font-bold text-xl border-2 border-yellow-700">
                 3
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-gray-900">Repair</h3>
-              <p className="text-gray-900">Professional repair using quality parts and expert techniques.</p>
+              <h3 className="font-bold text-lg mb-2 text-black">Repair</h3>
+              <p className="text-black">Professional repair using quality parts and expert techniques.</p>
             </div>
             
             <div className="text-center">
               <div className="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4 text-black font-bold text-xl border-2 border-yellow-700">
                 4
               </div>
-              <h3 className="font-semibold text-lg mb-2 text-gray-900">Testing</h3>
-              <p className="text-gray-900">Thorough testing to ensure optimal performance before delivery.</p>
+              <h3 className="font-bold text-lg mb-2 text-black">Testing</h3>
+              <p className="text-black">Thorough testing to ensure optimal performance before delivery.</p>
             </div>
           </div>
         </div>
@@ -176,13 +176,13 @@ export default function AlternatorRepairPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={getWhatsAppUrl('Hi, I need urgent alternator repair. My car has charging system issues.')}
-              className="bg-black text-yellow-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 active:scale-95 hover:scale-105 transition-all duration-200"
+              className="bg-black text-yellow-500 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-800 active:scale-95 hover:scale-105 transition-all duration-200"
             >
               Get Immediate Help
             </a>
             <a
               href={getPhoneUrl()}
-              className="border-2 border-black text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-black hover:text-yellow-500 transition-colors"
+              className="border-2 border-black text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-black hover:text-yellow-500 transition-colors"
             >
               Call for Quote
             </a>

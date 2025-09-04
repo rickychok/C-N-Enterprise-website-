@@ -102,7 +102,7 @@ export default async function AboutPage() {
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">20+ Years Experience</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">20+ Years Experience</h3>
               <p className="text-gray-700">
                 Over two decades of experience in automotive electrical systems, from classic cars to modern vehicles.
               </p>
@@ -114,7 +114,7 @@ export default async function AboutPage() {
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Certified Technicians</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Certified Technicians</h3>
               <p className="text-gray-700">
                 Our team consists of certified automotive electrical technicians with continuous training on latest technologies.
               </p>
@@ -126,7 +126,7 @@ export default async function AboutPage() {
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Quality Guarantee</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Quality Guarantee</h3>
               <p className="text-gray-700">
                 We stand behind our work with comprehensive warranties on both parts and labor for your peace of mind.
               </p>
@@ -145,7 +145,7 @@ export default async function AboutPage() {
               </h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="font-semibold text-lg mb-2 text-gray-900">Address</h3>
+                  <h3 className="font-bold text-lg mb-2 text-gray-900">Address</h3>
                   <p className="text-gray-800">
                     {siteConfig.address.street}<br />
                     {siteConfig.address.streetLine2}<br />
@@ -155,7 +155,7 @@ export default async function AboutPage() {
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold text-lg mb-2 text-gray-900">Contact</h3>
+                  <h3 className="font-bold text-lg mb-2 text-gray-900">Contact</h3>
                   <p className="text-gray-800">
                     Phone: {siteConfig.phone} (Main)<br />
                     Phone: {siteConfig.phoneSecondary}, {siteConfig.phoneThird}<br />
@@ -167,7 +167,7 @@ export default async function AboutPage() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-lg mb-4 text-gray-900">Operating Hours</h3>
+              <h3 className="font-bold text-lg mb-4 text-gray-900">Operating Hours</h3>
               <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <div className="space-y-2">
                   {Object.entries(siteConfig.hours).map(([day, hours]) => (
@@ -194,7 +194,7 @@ export default async function AboutPage() {
           </p>
           <a
             href={getWhatsAppUrl('Hi, I would like to learn more about C&N Enterprise services')}
-            className="bg-black text-yellow-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 active:scale-95 hover:scale-105 transition-all duration-200 inline-block"
+            className="bg-black text-yellow-500 px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-800 active:scale-95 hover:scale-105 transition-all duration-200 inline-block"
           >
             Get in Touch
           </a>
