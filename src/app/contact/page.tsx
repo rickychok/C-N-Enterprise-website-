@@ -1,3 +1,31 @@
+'use client';
+
+import { getWhatsAppUrl } from '@/lib/whatsapp';
+
+function submitContactForm() {
+  const name = (document.getElementById('name') as HTMLInputElement).value;
+  const phone = (document.getElementById('phone') as HTMLInputElement).value;
+  const service = (document.getElementById('service') as HTMLSelectElement).value;
+  const message = (document.getElementById('message') as HTMLTextAreaElement).value;
+  
+  if (!name || !phone || !service) {
+    alert('Please fill in all required fields');
+    return;
+  }
+  
+  const whatsappMessage = `Hi, my name is ${name}.
+
+Service needed: ${service}
+Phone: ${phone}
+
+Message: ${message}
+
+Please contact me about automotive electrical service.`;
+  
+  const whatsappUrl = getWhatsAppUrl(whatsappMessage);
+  window.open(whatsappUrl, '_blank');
+}
+
 export default function ContactPage() {
   return (
     <div>
@@ -180,42 +208,13 @@ export default function ContactPage() {
 
                 <button
                   type="button"
-                  onClick={() => {}}
+                  onClick={submitContactForm}
                   className="w-full bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
                 >
                   Send via WhatsApp
                 </button>
               </form>
 
-              <script>
-                {`
-                function submitContactForm() {
-                  const name = document.getElementById('name').value;
-                  const phone = document.getElementById('phone').value;
-                  const service = document.getElementById('service').value;
-                  const message = document.getElementById('message').value;
-                  
-                  if (!name || !phone || !service) {
-                    alert('Please fill in all required fields');
-                    return;
-                  }
-                  
-                  const whatsappMessage = \`Hi, my name is \${name}.
-
-Service needed: \${service}
-Phone: \${phone}
-
-Message: \${message}
-
-Please contact me about automotive electrical service.\`;
-                  
-                  const encodedMessage = encodeURIComponent(whatsappMessage);
-                  const whatsappUrl = \`https://wa.me/+601118696757?text=\${encodedMessage}\`;
-                  
-                  window.open(whatsappUrl, '_blank');
-                }
-                `}
-              </script>
             </div>
 
             <div>
