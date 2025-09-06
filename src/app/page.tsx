@@ -199,7 +199,7 @@ export default function Home() {
                 </div>
                 <div className="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
                   <p className="text-sm text-gray-700">
-                    <strong className="text-yellow-600">Can't find the part you need?</strong> We can source specialized parts for your specific machinery. Contact us with your requirements!
+                    <strong className="text-yellow-600">Can&apos;t find the part you need?</strong> We can source specialized parts for your specific machinery. Contact us with your requirements!
                   </p>
                 </div>
               </div>

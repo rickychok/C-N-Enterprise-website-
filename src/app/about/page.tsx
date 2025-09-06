@@ -148,7 +148,7 @@ export default async function AboutPage() {
                   <h3 className="font-bold text-lg mb-2 text-gray-900">Address</h3>
                   <p className="text-gray-800">
                     {siteConfig.address.street}<br />
-                    {siteConfig.address.streetLine2}<br />
+                    {siteConfig.address.streetLine2 && <>{siteConfig.address.streetLine2}<br /></>}
                     {siteConfig.address.city}, {siteConfig.address.state} {siteConfig.address.zip}<br />
                     {siteConfig.address.country}
                   </p>

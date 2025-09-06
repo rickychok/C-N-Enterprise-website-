@@ -6,10 +6,13 @@ export interface SiteConfig {
   tagline: string;
   description: string;
   phone: string;
+  phoneSecondary?: string;
+  phoneThird?: string;
   whatsapp: string;
   email: string;
   address: {
     street: string;
+    streetLine2?: string;
     city: string;
     state: string;
     zip: string;

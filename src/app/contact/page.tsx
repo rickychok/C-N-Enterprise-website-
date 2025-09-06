@@ -180,7 +180,7 @@ export default function ContactPage() {
 
                 <button
                   type="button"
-                  onclick="submitContactForm()"
+                  onClick={() => {}}
                   className="w-full bg-yellow-500 text-black px-8 py-4 rounded-lg text-lg font-bold hover:bg-yellow-400 active:scale-95 hover:scale-105 transition-all duration-200"
                 >
                   Send via WhatsApp
