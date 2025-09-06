@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const siteUrl = 'https://cnenterprise.com';
+const siteUrl = 'https://cnenterprise.vercel.app';
 
 const staticPages = [
   '',
